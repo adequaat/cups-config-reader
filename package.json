@@ -1,0 +1,32 @@
+{
+  "name": "cups-config-reader",
+  "version": "1.0.0",
+  "description": "Util to read CUPS configuration (/etc/cups/cupsd.conf) merged with the defaults settings and CUPS files config (/etc/cups/cups-files.conf) and parses the directives in them",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adequaat/cups-config-reader.git"
+  },
+  "keywords": [
+    "CUPS",
+    "settings",
+    "configuration",
+    "config",
+    "parser",
+    "reader",
+    "defaults"
+  ],
+  "author": "joel@adequaat.studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adequaat/cups-config-reader/issues"
+  },
+  "homepage": "https://github.com/adequaat/cups-config-reader#readme",
+  "devDependencies": {
+    "ava": "^5.0.1"
+  }
+}
